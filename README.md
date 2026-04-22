@@ -1,3 +1,4 @@
+![escrobot](./escrobot.png)
 # ESCROBOT
 
 escrobot is a smart contract that implements the back end of an automated escrow service.
@@ -14,9 +15,7 @@ It works as follows:
 
 escrobot supports deals where payment is made either in Ether (ETH) or any ERC20-compliant Ethereum token.
 
-The most prominent use case for ERC20s is as stablecoins.
-
-Whatever amount and token the buyer and seller agree to is supported.
+The most prominent use case for ERC20s is stablecoins like USDT and USDC, but any ERC20 token can be used.
 
 ## Admin
 
@@ -35,3 +34,8 @@ The admin **cannot**:
 * prevent any accounts from using this contract
 * take funds from this contract
 * alter or impede escrow deals in progress within this contract
+
+## Other Notes
+
+1. Do not re/use this code in production until you have tested well and achieved 100% coverage.
+
