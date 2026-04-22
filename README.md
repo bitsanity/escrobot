@@ -10,6 +10,14 @@ It works as follows:
 * The buyer receives the item and confirms so with this contract.
 * The contract pays the seller and returns the buyer's bond.
 
+## Currencies
+
+escrobot supports deals where payment is made either in Ether (ETH) or any ERC20-compliant Ethereum token.
+
+The most prominent use case for ERC20s is as stablecoins.
+
+Whatever amount and token the buyer and seller agree to is supported.
+
 ## Admin
 
 Decentralization is the ultimate goal but someone/something still has to act as an admin.
