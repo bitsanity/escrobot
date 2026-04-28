@@ -31,10 +31,6 @@ contract Admin {
     admin = payable(msg.sender);
   }
 
-  function setAdmin( address payable _newAdmin ) external isAdmin {
-    proposeAdmin( _newAdmin );
-  }
-
   function proposeAdmin( address payable _newAdmin ) public isAdmin {
     require( _newAdmin != address(0x0), "null not allowed" );
     pendingAdmin = _newAdmin;
